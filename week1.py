@@ -7,6 +7,4 @@ def alphabet_position(val):
         if number != -64:
             output.append(str(number))
     return " ".join(output)
-
-print(alphabet_position("Superman"))
     

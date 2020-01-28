@@ -1,5 +1,6 @@
 def alphabet_position(val):
     #val = input("Put the sentence in: ")
+    val = val.lower()
     output = []
     for char in val:
         number = ord(char)
@@ -10,5 +11,3 @@ def alphabet_position(val):
             number = number-64
             output += str(number)+' '
     return " ".join(output)
-
-

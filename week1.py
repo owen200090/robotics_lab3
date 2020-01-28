@@ -9,6 +9,6 @@ def alphabet_position(val):
         elif 65 <= number and number <= 90:
             number = number-64
             output += str(number)+' '
-    return " ".join(output)
+    return " ".join(output).strip()
 
-
+print(alphabet_position("The sunset o'clock"))

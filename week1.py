@@ -4,7 +4,6 @@ def alphabet_position(val):
     output = []
     for char in val:
         number = ord(char) - 96
-        if number != -64:
+        if number >-50:
             output.append(str(number))
     return " ".join(output)
-    

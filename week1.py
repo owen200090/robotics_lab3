@@ -10,4 +10,4 @@ def alphabet_position(val):
             output += str(number)+' '
     return " ".join(output).strip()
 
-print(alphabet_position("The sunset o'clock"))
+#print(alphabet_position("The sunset o'clock"))

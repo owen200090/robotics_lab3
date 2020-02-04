@@ -1,9 +1,7 @@
 def validate_pin(x):
-    if len(x) != 4 and len(x) != 6:
-        return False
-    try:
-        int(x)
+    if (x.isdigit() and (len(x) == 4 or len(x) == 6 )):
+
         return True
-    except:
-        return False
+
+    return False
 
